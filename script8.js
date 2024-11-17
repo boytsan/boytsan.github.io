@@ -2,7 +2,15 @@
 document.addEventListener("DOMContentLoaded", () => {
   const catalogWrapper = document.getElementById("catalog-wrapper");
   const language = localStorage.getItem("language") || "uk";
-
+function fetchData() {
+  fetch('data.json')
+    .then(response => response.json())
+    .then(data => {
+      console.log(data); // Додайте цей лог, щоб перевірити, що приходить в data
+      renderProducts(data[selectedLanguage]);
+    })
+    .catch(error => console.log(error));
+}
   fetch("data.json")
     .then(response => response.json())
     .then(data => {
