@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,24 +15,26 @@
     <main>
         <section class="swiper-container">
             <div class="swiper">
-                <div class="swiper-wrapper">
-                    <!-- Карточка товару -->
-                    <div id="catalog-wrapper" class="swiper-wrapper">
-                    </div>
+                <div class="swiper-wrapper" id="catalog-wrapper">
+                    <!-- Картки товарів будуть додані тут за допомогою JavaScript -->
+                </div>
+                <!-- Додано пагінацію та навігацію для Swiper -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </section>
     </main>
-
     <footer>
         <p>&copy; 2024 Каталог Книг</p>
     </footer>
-
     <!-- Підключення Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="script8.js"></script>
+
     <div id="language-switcher">
-  <button onclick="changeLanguage('uk')">Українська</button>
-  <button onclick="changeLanguage('en')">English</button>
-</div>
+        <button onclick="changeLanguage('uk')">Українська</button>
+        <button onclick="changeLanguage('en')">English</button>
+    </div>
 </body>
 </html>
