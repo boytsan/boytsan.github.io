@@ -1,4 +1,34 @@
 // script.js
+document.addEventListener("DOMContentLoaded", () => {
+  const catalogWrapper = document.getElementById("catalog-wrapper");
+  const language = localStorage.getItem("language") || "uk";
+
+  fetch("data.json")
+    .then(response => response.json())
+    .then(data => {
+      const books = data[language];
+      catalogWrapper.innerHTML = books
+        .map(
+          book => `
+          <div class="swiper-slide">
+            <img src="${book.image}" alt="${book.title}">
+            <h2>${book.title}</h2>
+            <p>Автор: ${book.author}</p>
+            <p>Ціна: ${book.price}</p>
+            <a href="${book.link}" target="_blank">Детальніше</a>
+          </div>
+        `
+        )
+        .join("");
+    })
+    .catch(error => console.error("Помилка завантаження даних:", error));
+});
+// Зміна мови
+const changeLanguage = (lang) => {
+  localStorage.setItem("language", lang);
+  window.location.reload();
+};
+
 document.addEventListener('DOMContentLoaded', () => {
     const swiper = new Swiper('.swiper', {
         slidesPerView: 1,
