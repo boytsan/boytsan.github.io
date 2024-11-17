@@ -1,0 +1,103 @@
+{
+    "uk": [
+      {
+        "id": 1,
+        "title": "Російсько-українська війна: повернення історії",
+        "author": "С. Плохій",
+        "price": "450 грн",
+        "image": "book1.jpg",
+        "link": "https://bookclub.ua/catalog/books/facts/rosiysko-ukrayinska-viyna-povernennya-istoriyi"
+      },
+      {
+        "id": 2,
+        "title": "Франція: історія пригод",
+        "author": "Г. Робб",
+        "price": "322 грн",
+        "image": "book2.jpg",
+        "link": "https://bookclub.ua/catalog/books/facts/franciya-istoriya-prigod"
+      },
+      {
+        "id": 3,
+        "title": "Переможець",
+        "author": "Дж. Велч, С. Велч",
+        "price": "320 грн",
+        "image": "book3.jpg",
+        "link": "https://bookclub.ua/catalog/books/busines/peremojec-1"
+      },
+      {
+        "id": 4,
+        "title": "Команда скелетів",
+        "author": "Стівен Кінг",
+        "price": "490 грн",
+        "image": "book4.jpg",
+        "link": "https://bookclub.ua/catalog/books/thriller_horror_books/komanda-skeletiv"
+      },
+      {
+        "id": 5,
+        "title": "Прокляття святих. Книга 1",
+        "author": "К. Дреміс",
+        "price": "450 грн",
+        "image": "book5.jpg",
+        "link": "https://bookclub.ua/catalog/books/fantasy_books/proklyattya-svyatih-kniga-1"
+      },
+      {
+        "id": 6,
+        "title": "Майстерність",
+        "author": "Роберт Грін",
+        "price": "360 грн",
+        "image": "book6.jpg",
+        "link": "https://bookclub.ua/catalog/books/psychology/maysternist"
+      }
+    ],
+    "en": [
+      {
+        "id": 1,
+        "title": "The Russo-Ukrainian War: The Return of History",
+        "author": "S. Plokhy",
+        "price": "12 USD",
+        "image": "book1.jpg",
+        "link": "https://bookclub.ua/catalog/books/facts/rosiysko-ukrayinska-viyna-povernennya-istoriyi"
+      },
+      {
+        "id": 2,
+        "title": "France: A History of Adventures",
+        "author": "G. Robb",
+        "price": "10 USD",
+        "image": "book2.jpg",
+        "link": "https://bookclub.ua/catalog/books/facts/franciya-istoriya-prigod"
+      },
+      {
+        "id": 3,
+        "title": "The Winner",
+        "author": "J. Welch, S. Welch",
+        "price": "9 USD",
+        "image": "book3.jpg",
+        "link": "https://bookclub.ua/catalog/books/busines/peremojec-1"
+      },
+      {
+        "id": 4,
+        "title": "Skeleton Crew",
+        "author": "Stephen King",
+        "price": "15 USD",
+        "image": "book4.jpg",
+        "link": "https://bookclub.ua/catalog/books/thriller_horror_books/komanda-skeletiv"
+      },
+      {
+        "id": 5,
+        "title": "The Curse of Saints. Book 1",
+        "author": "C. Dremis",
+        "price": "12 USD",
+        "image": "book5.jpg",
+        "link": "https://bookclub.ua/catalog/books/fantasy_books/proklyattya-svyatih-kniga-1"
+      },
+      {
+        "id": 6,
+        "title": "Mastery",
+        "author": "Robert Greene",
+        "price": "11 USD",
+        "image": "book6.jpg",
+        "link": "https://bookclub.ua/catalog/books/psychology/maysternist"
+      }
+    ]
+  }
+  
